@@ -19,6 +19,7 @@
 		D9B8DD042B342FB40091ECFF /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD032B342FB40091ECFF /* FeedItemsMapper.swift */; };
 		D9B8DD072B3431E50091ECFF /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD062B3431E50091ECFF /* URLSessionHTTPClientTests.swift */; };
 		D9B8DD0A2B34341B0091ECFF /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD092B34341B0091ECFF /* XCTestCase+MemoryLeakTracking.swift */; };
+		D9B8DD0C2B3435B00091ECFF /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD0B2B3435B00091ECFF /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D9B8DD032B342FB40091ECFF /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		D9B8DD062B3431E50091ECFF /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		D9B8DD092B34341B0091ECFF /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		D9B8DD0B2B3435B00091ECFF /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D9B8DCFF2B341EEB0091ECFF /* RemoteFeedLoader.swift */,
 				D9B8DD012B342F670091ECFF /* HTTPClient.swift */,
 				D9B8DD032B342FB40091ECFF /* FeedItemsMapper.swift */,
+				D9B8DD0B2B3435B00091ECFF /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B8DD0C2B3435B00091ECFF /* URLSessionHTTPClient.swift in Sources */,
 				D9B8DD002B341EEB0091ECFF /* RemoteFeedLoader.swift in Sources */,
 				D9B8DD022B342F670091ECFF /* HTTPClient.swift in Sources */,
 				D9B8DCFA2B3406EF0091ECFF /* FeedLoader.swift in Sources */,
