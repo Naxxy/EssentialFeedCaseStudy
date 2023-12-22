@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D902906E2B356E3C001479F0 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902906D2B356E3C001479F0 /* FeedStore.swift */; };
 		D9B8DCE22B3406190091ECFF /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DCE12B3406190091ECFF /* EssentialFeed.docc */; };
 		D9B8DCE82B34061A0091ECFF /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B8DCDD2B3406190091ECFF /* EssentialFeed.framework */; };
 		D9B8DCED2B34061A0091ECFF /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DCEC2B34061A0091ECFF /* EssentialFeedTests.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D902906D2B356E3C001479F0 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		D9B8DCDD2B3406190091ECFF /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B8DCE02B3406190091ECFF /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		D9B8DCE12B3406190091ECFF /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EC1F772B356D26008B2084 /* LocalFeedLoader.swift */,
+				D902906D2B356E3C001479F0 /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D902906E2B356E3C001479F0 /* FeedStore.swift in Sources */,
 				D9B8DD0C2B3435B00091ECFF /* URLSessionHTTPClient.swift in Sources */,
 				D9B8DD002B341EEB0091ECFF /* RemoteFeedLoader.swift in Sources */,
 				D9B8DD022B342F670091ECFF /* HTTPClient.swift in Sources */,
