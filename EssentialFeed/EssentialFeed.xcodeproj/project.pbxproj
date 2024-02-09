@@ -49,6 +49,7 @@
 		D9B8DD212B343B590091ECFF /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD202B343B590091ECFF /* CacheFeedUseCaseTests.swift */; };
 		D9CA9EDF2B7633A700DBF535 /* EssentialFeedCacheIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA9EDE2B7633A700DBF535 /* EssentialFeedCacheIntegrationTests.swift */; };
 		D9CA9EE02B7633A700DBF535 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B8DCDD2B3406190091ECFF /* EssentialFeed.framework */; };
+		D9CA9EE92B7641BF00DBF535 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DD092B34341B0091ECFF /* XCTestCase+MemoryLeakTracking.swift */; };
 		D9EC1F752B3567E9008B2084 /* NSError+TestingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC1F742B3567E9008B2084 /* NSError+TestingHelpers.swift */; };
 		D9EC1F782B356D26008B2084 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC1F772B356D26008B2084 /* LocalFeedLoader.swift */; };
 /* End PBXBuildFile section */
@@ -559,6 +560,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CA9EDF2B7633A700DBF535 /* EssentialFeedCacheIntegrationTests.swift in Sources */,
+				D9CA9EE92B7641BF00DBF535 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
